@@ -113,7 +113,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -285.971, -78.9169 </vector2>
+							<vector2> -285.971, -78.917 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -244,7 +244,7 @@
 				<resource  external="0">  </resource>
 				<resource  external="1">  </resource>
 				<vector2> 132.765, 59.459 </vector2>
-				<vector2> 0.2, 0.2 </vector2>
+				<vector2> 1, 1 </vector2>
 				<real> 0.4 </real>
 				<vector2> 382.003, 147.426 </vector2>
 				<vector2> 584.001, 87.1522 </vector2>

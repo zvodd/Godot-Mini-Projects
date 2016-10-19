@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="6" version="2.1" version_name="Godot Engine v2.1.stable.official">
+	<ext_resource path="res://ball.scn.xml" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://HoopsBG_edit.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://interact_script.gd" type="Script" index="0"></ext_resource>
+	<resource type="RectangleShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 91.7666, 593.863 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 1111.06, 298.921 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="44">
+				<string> "container" </string>
+				<string> "__meta__" </string>
+				<string> "Node" </string>
+				<string> "explodables_controller" </string>
+				<string> "script/script" </string>
+				<string> "Node2D" </string>
+				<string> "ball" </string>
+				<string> "transform/pos" </string>
+				<string> "static" </string>
+				<string> "input/pickable" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "StaticBody2D" </string>
+				<string> "sprite" </string>
+				<string> "z/z" </string>
+				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "Sprite" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "shapes/1/shape" </string>
+				<string> "shapes/1/transform" </string>
+				<string> "shapes/1/trigger" </string>
+				<string> "shapes/2/shape" </string>
+				<string> "shapes/2/transform" </string>
+				<string> "shapes/2/trigger" </string>
+				<string> "shapes/3/shape" </string>
+				<string> "shapes/3/transform" </string>
+				<string> "shapes/3/trigger" </string>
+				<string> "CollisionShape2D2" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "CollisionShape2D1" </string>
+				<string> "CollisionShape2D2 2" </string>
+				<string> "CollisionShape2D3" </string>
+				<string> "StaticBody2D1" </string>
+				<string> "StaticBody2D2" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 12 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="210"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 5, 3, -1, 1, 4, 1, 0, 1, 0, 2147483647, 6, 2, 1, 7, 3, 0, 0, 0, 16, 8, -1, 7, 9, 4, 10, 5, 11, 5, 12, 6, 13, 7, 14, 8, 15, 7, 0, 3, 0, 21, 17, -1, 4, 7, 9, 18, 10, 19, 11, 20, 4, 0, 0, 0, 16, 16, -1, 19, 9, 4, 22, 12, 23, 13, 24, 4, 25, 12, 26, 14, 27, 4, 28, 15, 29, 16, 30, 4, 31, 15, 32, 17, 33, 4, 10, 5, 11, 5, 12, 6, 13, 7, 14, 8, 15, 7, 0, 5, 0, 38, 34, -1, 4, 7, 18, 35, 12, 36, 4, 37, 19, 0, 5, 0, 38, 39, -1, 4, 7, 20, 35, 12, 36, 4, 37, 5, 0, 5, 0, 38, 40, -1, 4, 7, 21, 35, 15, 36, 4, 37, 22, 0, 5, 0, 38, 41, -1, 4, 7, 23, 35, 15, 36, 4, 37, 24, 0, 0, 0, 16, 42, -1, 7, 9, 4, 10, 5, 11, 5, 12, 6, 13, 7, 14, 8, 15, 7, 0, 0, 0, 16, 43, -1, 7, 9, 4, 10, 5, 11, 5, 12, 6, 13, 7, 14, 8, 15, 7, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="25" shared="false">
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+				</dictionary>
+				<resource  external="0">  </resource>
+				<resource  external="1">  </resource>
+				<vector2> 358.383, 150.684 </vector2>
+				<bool> False </bool>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<vector2> 0, 1.67017 </vector2>
+				<int> -100 </int>
+				<resource  external="2">  </resource>
+				<resource  resource_type="Shape2D" path="local://2">  </resource>
+				<matrix32> 1, -0, 0, 1, 2013.95, 518.195 </matrix32>
+				<matrix32> 1, -0, 0, 1, -95.8334, 543.961 </matrix32>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<matrix32> 1, -0, 0, 1, 945.171, 1379.63 </matrix32>
+				<matrix32> 1, -0, 0, 1, 965.719, -346.46 </matrix32>
+				<vector2> 2013.95, 518.195 </vector2>
+				<int> 0 </int>
+				<vector2> -95.8334, 543.961 </vector2>
+				<vector2> 945.171, 1379.63 </vector2>
+				<int> 2 </int>
+				<vector2> 965.719, -346.46 </vector2>
+				<int> 3 </int>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
